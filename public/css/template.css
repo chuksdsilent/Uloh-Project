@@ -1,0 +1,528 @@
+body{
+    font-size: 16px;
+    background: #f9f9f9 !important;
+}
+.primary-color{
+    color: rgba(209, 51, 51, 0.9) !important;
+}
+.secondary-color{
+    color: #FF9800;
+}
+.bg-primary-color{
+    background: rgba(209, 51, 51, 0.9);
+    color: white;
+}
+.bg-secondary-color{
+    background: #FF9800 !important;
+    color: white !important;
+    border-color: rgb(238, 151, 21) !important;
+}
+.text-danger{
+    font-size: 12px !important;
+}
+.text-center{
+    text-align: center;
+}
+
+/*----------------Tab--------------------------*/
+/* Tabs*/
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: white;
+    color: black;
+    
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent transparent gold;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: black !important;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-size: 20px;
+    color: rgb(221, 193, 35);
+    font-weight: bolder;
+}
+/* ---------------Template-------------------- */
+
+.header-area{
+    background: white;
+    padding: 10px 0px 10px 150px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 1px solid #d49114;
+}
+.content-area{
+    margin: 50px 0px;
+}
+.sign-up{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.sign-up-area{
+  width: 400px;
+  height: 100%;
+}
+.sign-up-form-content{
+    background: white;
+    padding: 40px 30px;
+    border: 1px solid #dddddd
+}
+.content-area .sign-up-area .signup-header-area{
+    background: #d49114;
+    color: white;
+    padding: 10px 0px 10px 30px;;
+
+}
+.sign-up-area.registration-area{
+  width: 700px;
+  height: 650px;
+}
+
+/* ---------------new Project ----------------- */
+.project-area .new-project{
+    background: white;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+/* ----------------client----------------------- */
+
+nav .fas, nav .far{
+    font-size: 20px;
+}
+nav .name{
+    font-size: 18px;
+}
+nav a.navbar-brand{
+    font-size: 25px !important;
+}
+nav ul li a, nav a.navbar-brand{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.client-container{
+    padding: 10px 10px 10px 10px;
+    background: white !important;
+    border-bottom: 1px solid #ffbf00;
+}
+nav .form-inline{
+    width: 300px;
+}
+nav input{
+    width: 100% !important;
+}
+
+.about-us{
+    margin: 20px 0px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+.about-us p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+.stellarnav.mobile.right .close-menu.third{
+    width: 100%;
+    display: block;
+}
+.stellarnav ul{
+    z-index: 10;
+}
+.mobile-brand{
+    font-size: 30px;
+    font-weight: bolder;
+}
+footer{
+    padding: 40px 0px;
+    margin-top: 100px;
+}
+footer i{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-right: 10px;
+}
+footer a{
+    color: white;
+    display: block;
+    font-size: 14px;
+    padding: 2px 0px;
+}
+footer a:hover{
+    color: gold;
+    text-decoration: none;
+}
+footer .section{
+    margin-bottom: 20px;
+}
+.color-white{
+    background: white;
+}
+.space-top{
+    margin-top: 30px;
+}
+.test{
+    background: #f3f3f3;
+    margin-right: 20px;
+    height: 120px !important;
+    width: 120px !important;
+}    
+.dashboard-content .interior-for-home{
+    background-color: white;
+    padding: 20px;
+}
+.dashboard-content .interior-for-home h5{
+    margin-bottom: 20px;
+}
+.navbar-nav .nav-link{
+    padding-right: 0px !important;
+}
+.dashboard-content .uuloh-blog{
+    margin-top: 30px;
+}
+.dashboard-content .uuloh-blog .first-content img{
+    height: 500px;;
+}
+.dashboard-content .uuloh-blog .content{
+    padding: 20px;
+}
+.dashboard-content .card-title{
+    font-size: 20px;
+}
+.dashboard-content .card-text{
+    font-size: 13px;
+    text-align: justify;
+}
+nav li{
+    position: relative;
+}
+nav ul ul.sub-menu{
+    position: absolute;
+    display: none;
+    z-index: 999;
+    left: -100px;
+    background:white;
+    border: 2px solid #dddddd;
+    width: 900px;
+    height: auto;
+    margin: 0px;
+    padding: 30px 0px;
+    border-radius: 10px;
+    
+   
+}
+nav ul ul.notification-sub-menu{
+    position: absolute;
+    left: -75px;
+    display: none;
+    z-index: 999;
+    background:white;
+    border: 2px solid #dddddd;
+    height: auto;
+    overflow: auto
+    margin: 0px;
+    border-radius: 10px;
+    padding: 0px;
+    width: 200px;
+}
+
+nav ul ul.notification-sub-menu h6{
+  font-size: 13px;
+  margin: 0px;
+} 
+nav ul ul.notification-sub-menu p{
+  font-size: 12px;
+}
+a.prof-menu:hover {
+    background: orange;
+    color: black;                   
+}
+nav ul ul.notification-sub-menu a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+nav ul ul.notification-sub-menu a:hover{
+   background: #f3f3f3;
+}
+
+nav ul ul.notification-sub-menu a:hover{
+    text-decoration: none;
+
+}
+nav ul ul.sub-menu li.sub-menu-link{
+    background: red
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    float: left !important;
+    width: 210px;                    
+    padding: 10px 0px;
+    /* margin-left: 30px; */
+}
+
+nav ul ul.notification-sub-menu ul{
+    padding: 0px;
+}
+nav ul ul.notification-sub-menu li.sub-menu-link{
+    padding: 10px 0px;
+}
+li.sub-menu-link li a{
+    font-weight: normal !important;
+}
+li.sub-menu-link li{
+    padding-bottom: 5px;
+}
+li.sub-menu-link ul h6{
+    font-weight: bolder !important;
+    color: #d49114;
+}
+li.sub-menu-link ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav .nav-item li{
+    list-style-type: none;
+}
+.nav-item{
+    padding: 2px;
+}
+nav ul li:hover ul, nav ul li:active ul{
+    display: block;
+}
+.user-sub-menu{
+    left: 20px !important;
+    width: 150px !important;
+}
+
+.carousel{
+    padding: 140px 0px;
+}
+.carousel .container{
+    text-align: center;
+    color: white;
+}
+.carousel .input-group{
+    width: 70%;
+    margin: auto auto;
+
+}
+.carousel h2{
+    font-size: 40px;
+}
+.carousel h2, .carousel h4{
+    font-weight: bolder;
+}
+.carousel h4{
+    margin-bottom: 30px;
+}
+.dashboard-content .three-content-items header{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+.dashboard-content .three-content-items{
+    text-align: center;
+}
+.dashboard-content .three-content-items i{
+    font-size: 50px;
+    margin: 20px 0px;
+}
+.desktop .three-content-items h3{
+    font-size: 20px;
+}
+.desktop .three-content-items  img{
+    width: 60px; 
+    height: 60px; 
+    margin: 20px 0px;
+}
+.desktop .three-content-items  .col-md-4{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .sidenav{
+        display: none;
+    }
+  .professionals h3{
+        margin-top: 10px;
+    }
+    .mobile .three-content-items h3{
+        font-size: 13px;
+    }
+    .mobile .three-content-items i{
+        font-size: 30px;
+    }
+    .mobile .three-content-items img{
+        width: 40px;
+        height: 40px;
+        margin: 15px 0px;
+    }
+    .mobile .three-content-items header{
+        font-size: 20px;
+    }
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+        
+    .dashboard-content .three-content-items header{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .dashboard-content .three-content-items{
+        text-align: center;
+    }
+    .dashboard-content .three-content-items i{
+        font-size: 50px;
+        margin: 20px 0px;
+    }
+    .sidenav{
+        display: none;
+    }
+
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    
+} 
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+}
+.cd-dropdown-wrapper{
+    width: 100% !important;
+
+}
+.cd-dropdown-wrapper .cd-dropdown-trigger{
+    width: 100px;
+}
+/*------------------------ Indicators ---------------------------*/
+.indicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indicators .bills{
+    margin: 10px 30px 10px 0px;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.indicators .bills span{
+    display: inline;
+}
+
+
+.second-comment .card img, .product-result .card img, .second-comment .card .img-box-shadow{
+    /* position: relative;
+    width:100%;
+    height:240px;
+    margin: 0px; */
+
+    /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    /* object-fit:scale-down; */
+ position: relative;
+float: left;
+width:  100%;
+height: 250px;
+background-position: 50% 50%;
+background-repeat:   no-repeat;
+background-size:     cover;
+object-fit: cover;
+/* filter: brightness(70%); */
+
+-webkit-box-shadow: inset 7px 30px 77px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 7px 30px 77px -10px rgba(0,0,0,0.75);
+    box-shadow: inset 7px 30px 77px -10px rgba(0,0,0,0.75);
+}
+.product-result .card img{
+    
+width:  100%;
+height: 180px;
+}

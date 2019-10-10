@@ -1,0 +1,77 @@
+.carousel{
+    background-image: url("../backgrounds/carousel_bg.png");
+}
+body{
+    font-size: 16px;
+}
+.alert-primary{
+    background: #ffbf00 !important;
+    color: white;
+}
+.new-product .product-deco{
+    max-width: 95% !important;
+}
+.primary-color{
+    color: rgba(209, 51, 51, 0.9) !important;
+}
+.secondary-color{
+    color: #d49114;
+}
+.bg-primary-color{
+    background: rgba(209, 51, 51, 0.9);
+    color: white;
+}
+.bg-secondary-color{
+    background: #ffbf00 !important;
+    color: white;
+}
+.banner-content h4{
+    
+    color:white;
+    font-size: 40px;
+
+}
+.banner-content h6{
+    color: white;
+    font-size: 30px;
+}
+.banner-content h2{
+    font-size: 42px;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.banner-content input{
+    height: 50px;
+    min-width: 50%;
+}
+.banner-content button{
+    background: rgb(197, 24, 24);
+    color: white;
+    flex: 1;
+}
+.input-group-addon {
+    min-width:60%;
+    text-align:left;
+}
+.single-service{
+    background: white;
+    -webkit-box-shadow: -2px 0px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 0px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: -2px 0px 16px -2px rgba(0,0,0,0.75);
+    height: 380px;
+}
+.single-service .fas{
+    font-size: 60px;
+    margin: 30px 0px; 
+}
+
+
+
+/* ---------------Footer---------------------- */
+footer{
+    background: #252222;
+    color: white;
+}
+footer h6{
+    color: white;
+}
